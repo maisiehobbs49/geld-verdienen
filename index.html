@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16691709758"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16691709758');
+</script>
+<!-- Event snippet for pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16691709758/xbfaCKDej9AZEL6OnZc-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBIHUB lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+
+.fab[data-v-91ccf3ff] {
+    bottom: 69px;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 6px;
+    transition-duration: .3s;
+    z-index: 500
+}
+
+@media (min-width:768px) {
+    .fab[data-v-91ccf3ff] {
+        right: 50px
+    }
+}
+
+.fab__inner>div[data-v-91ccf3ff] {
+    align-items: center;
+    background: #3683b60d;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    transition: width .3s;
+    width: 80px
+}
+
+.fab__inner>div.extended[data-v-91ccf3ff] {
+    background-color: transparent;
+    width: 175px
+}
+
+.fab__inner>div>div[data-v-91ccf3ff] {
+    align-items: center;
+    background: #3683b60d;
+    border-radius: 50%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px
+}
+
+.fab__inner>div>div.extended[data-v-91ccf3ff] {
+    background-color: transparent;
+    background: var(--Secondary, #323338);
+    border-radius: 25px;
+    box-shadow: 0 6px 10px #00000024, 0 1px 18px #0000001f, 0 3px 5px #0003;
+    gap: 16px;
+    height: 54px;
+    justify-content: flex-start;
+    padding-left: 2px;
+    width: 175px
+}
+
+.fab__inner>div>div .icon-container[data-v-91ccf3ff] {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 48px;
+    justify-content: center;
+    width: 48px
+}
+
+.fab__inner>div>div a[data-v-91ccf3ff] {
+    align-items: center;
+    font-size: 15px;
+    height: 100%;
+    justify-content: center;
+    line-height: 140%;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+    /* Allgemeine Stile */
+    .new-regular,
+    .new-bold,
+    .new-regular-italic,
+    .new-bold-italic {
+      font-family: "B612", sans-serif;
+    }
+
+    .new-regular {
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .new-bold {
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .new-regular-italic {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .new-bold-italic {
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: "B612", sans-serif;
+    }
+
+    header {
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .new-logo img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    /* Hauptbereichsstile */
+    main {}
+
+    /* Großes Bildstile */
+    .new-big-image,
+    .new-big-image_2 {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      filter: blur();
+    }
+
+    .new-big-image {
+      background-image: url("14.jpg");
+    }
+
+    .new-big-image_2 {
+      background-image: url("13.jpg");
+    }
+
+    .new-big-image-text {
+      color: #fff;
+      padding: 20px;
+      border-radius: 25px;
+    }
+
+    .tg {
+      animation: myAnim 2s ease 2s infinite normal forwards;
+    }
+
+    /* Schaltflächenstile */
+    .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+
+    @keyframes myAnim {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Abschnittsstile */
+    .new-section,
+    .new-section_2 {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* Abschnitt 2 Stile */
+    .new-section_2 {
+      padding: 30px;
+      text-align: left;
+      background-color: #ffd7ef;
+      border-radius: 25px;
+    }
+
+    .new-section div {
+      flex-basis: calc(33.33% - 20px);
+      margin-bottom: 20px;
+    }
+
+    .new-section img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+    }
+
+    .new-section p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+
+      .new-section,
+      .new-section_2 {
+        flex-wrap: wrap;
+      }
+
+      .new-section div {
+        flex-basis: calc(100% - 20px);
+        margin-right: 0;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+
+      .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 25px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+    }
+
+    /* Testimonial Styles */
+    .new-otziv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #ffd7ef;
+      color: #000;
+      border-radius: 25px;
+      padding: 5px;
+    }
+
+    .new-otziv>img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .new-otziv>p {
+      text-align: left;
+    }
+
+    .new-name {
+      font-weight: bolder;
+      font-style: normal;
+    }
+
+    /* Block Styles */
+    .new-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .new-title {
+      width: 90%;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #000;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .new-description {
+      width: 70%;
+      display: none;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    .new-span_bold {
+      font-weight: bolder;
+    }
+
+    hr {
+      background-color: #333;
+      width: 50%;
+    }
+
+    .new-link1 {
+      text-decoration: none;
+      color: #ffd7ef;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #ffd7ef;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+          const fullCookieValue = parts.pop().split(';').shift();
+          const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+          return cidValue;
+        }
+        return null;
+      }
+
+      const cid = getCid('_ga');
+
+      // Получаем все кнопки с атрибутом onclick
+      var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+      // Перебираем каждую кнопку
+      buttons.forEach(function (button) {
+        // Получаем текущее значение атрибута onclick
+        var currentOnClick = button.getAttribute('onclick');
+
+        // Извлекаем параметры из текущей ссылки
+        var urlParams = new URLSearchParams(window.location.search);
+        var keywordParam = urlParams.get('utm_term');
+        var gclidParam = urlParams.get('gclid');
+
+        // Формируем новую ссылку с параметрами
+        var newOnClick = "return gtag_report_conversion('https://specify-leakiness.click/yZh375bk?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+        // Заменяем текущее значение атрибута onclick новым
+        button.setAttribute('onclick', newOnClick);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Großer Bildabschnitt -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Einfaches und passives Einkommen</h1>
+        <h2>Schauen Sie sich Videos an und verdienen Sie gutes Geld damit.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/yZh375bk')">👉 JETZT
+          BEGINNEN 👈</button>
+      </div>
+    </div>
+    <!-- Hauptinhalt Abschnitte -->
+    <h2>Wir zahlen 1 Euro pro Videoansicht</h2>
+    <h3>Melde dich bei Telegram an und beginne noch heute zu verdienen!</h3>
+    <!-- Erster Abschnitt -->
+    <div class="new-section">
+      <div>
+        <img src="1.jpg">
+        <p>Wir sind eine unabhängige Agentur, die die Qualität von Videoinhalten bewertet.</p>
+      </div>
+      <div>
+        <img src="2.jpg">
+        <p>Gemeinsam mit dem sozialen Netzwerk TikTok und der Telegram-App haben wir ein Partnerprogramm gestartet.
+          Dafür benötigen wir unabhängige Experten, von denen Sie einer sein können.</p>
+      </div>
+      <div>
+        <img src="3.jpg">
+        <p>Unser Partnerprogramm zielt darauf ab, die Qualität von Videoinhalten im sozialen Netzwerk TikTok über die
+          Telegram-App unabhängig zu bewerten. Wir zahlen 1 Euro pro Videoansicht!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/yZh375bk')">👉 JETZT
+        BEGINNEN 👈</button>
+    </div>
+
+    <!-- Zweiter Abschnitt -->
+    <h2>Unser Angebot</h2>
+    <div class="new-section_2">
+      <div>
+        <p><span class="new-span_bold">Flexible Arbeitszeiten</span> – Arbeiten Sie, wo und wann es Ihnen passt.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Keine Verdienstbeschränkungen</span> – Ihr Einkommen hängt nur von Ihnen und
+          Ihrem Wunsch ab.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Tägliche Auszahlungen</span> – Erhalten Sie Ihr Einkommen auf bequeme Weise.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Ihre Ausbildung und berufliche Erfahrung</span> sind für uns nicht wichtig.</p>
+      </div>
+    </div>
+
+    <h2>Was muss ich tun?</h2>
+    <div class="new-section">
+      <div>
+        <img src="4.jpeg">
+        <p class="new-span_bold">Videos ansehen</p>
+      </div>
+      <div>
+        <img src="5.jpeg">
+        <p class="new-span_bold">Videos bewerten, liken oder disliken.</p>
+      </div>
+      <div>
+        <img src="6.jpeg">
+        <p class="new-span_bold">Und dafür echtes Geld erhalten.</p>
+      </div>
+    </div>
+
+    <div style="margin: 30px;">
+      <!-- Wie man am Programm teilnimmt Abschnitt -->
+      <h2>So nehmen Sie an unserem Partnerprogramm teil</h2>
+      <p>Es ist sehr einfach, mit unserem Programm Geld zu verdienen. <span class="new-span_bold">Sie müssen mindestens
+          18 Jahre alt sein, ein Smartphone mit der Telegram-App installiert haben und Zugang zum Internet haben.</span>
+        Wenn Sie die Telegram-App noch nicht installiert haben, können Sie sie aus dem <a class="new-link1"
+          href="https://apps.apple.com/ru/app/telegram-messenger/id686449807">App Store</a> oder <a class="new-link1"
+          href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=ro&gl=RO">Google Play Market</a>
+        herunterladen.</p>
+    </div>
+
+    <!-- Zusätzliche Schritte Abschnitt -->
+    <div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+      <div>
+        <span>1️⃣</span>
+        <p class="new-span_bold">Besuchen Sie unseren Telegram-Kanal</p>
+      </div>
+      <div>
+        <span>2️⃣</span>
+        <p><span class="new-span_bold">Aktivieren Sie Ihr persönliches Konto.</span> Um Ihr persönliches Konto zu
+          aktivieren, klicken Sie auf die Schaltfläche <span class="new-span_bold">START</span> in unserem
+          Telegram-Kanal.</p>
+      </div>
+      <div>
+        <span>3️⃣</span>
+        <p><span class="new-span_bold">Verdienen Sie Geld, indem Sie Videos ansehen und bewerten.</span> Sie erhalten
+          Videos, die Sie bewerten können. Sehen Sie sich Videos an, bewerten Sie sie und verdienen Sie echtes Geld
+          damit.</p>
+      </div>
+    </div>
+
+    <!-- Bewertungen Abschnitt -->
+    <h2>Bewertungen unserer Partner</h2>
+    <div class="new-section">
+      <div class="new-otziv">
+        <img src="7.png">
+        <p class="new-name">Michael</p>
+        <p>Das Partnerprogramm ist einfach magisch! Ich verdiene Geld, während ich in meinem Lieblings-Messenger bin und
+          Videos auf TikTok anschaue. Das ist einfach genial!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="8.png">
+        <p class="new-name">Emma</p>
+        <p>Ein großartiger Weg, um Geld zu verdienen, indem man TikTok-Videos in Telegram ansieht. Bequem, schnell und
+          vor allem profitabel. Empfohlen!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="9.png">
+        <p class="new-name">Sophia</p>
+        <p>Das Partnerprogramm zum Geldverdienen in Telegram ist meine neue Entdeckung! Sie gehen einfach zum Kanal,
+          schauen sich Videos an und das Geld wird auf Ihr Konto überwiesen. Ausgezeichnet!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="10.png">
+        <p class="new-name">Wolfgang</p>
+        <p>Jetzt ist mein Telegram mit diesem Partnerprogramm noch interessanter geworden. Ich verdiene Geld, indem ich
+          TikTok-Videos anschaue. Es ist einfach fantastisch!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="11.png">
+        <p class="new-name">Steven</p>
+        <p>Dank des Partnerprogramms verdiene ich jetzt mit meinem Hobby Geld. Ich sitze einfach in Telegram, schaue mir
+          Videos an und bekomme dafür Geld. Wunderbar!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="12.png">
+        <p class="new-name">Matthias</p>
+        <p>Endlich habe ich einen idealen Weg gefunden, um Geld mit meinen Lieblingsvideos auf TikTok und Telegram zu
+          verdienen. Bequem, schnell und profitabel!</p>
+      </div>
+
+    </div>
+
+    <!-- Block Abschnitte -->
+    <div class="new-block" onclick="toggleDescription(1)">
+      <div class="new-title">Was benötige ich, um am Partnerprogramm teilzunehmen? 👈</div>
+      <hr>
+      <div id="description1" class="new-description">Sie müssen mindestens 18 Jahre alt sein, ein Smartphone mit der
+        Telegram-App installiert haben und Zugang zum Internet haben.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(2)">
+      <div class="new-title">Wie melde ich mich für das Partnerprogramm an? 👈</div>
+      <hr>
+      <div id="description2" class="new-description">Gehen Sie einfach zu unserem Telegram-Kanal und klicken Sie auf die
+        START-Taste in unserem Kanal.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(3)">
+      <div class="new-title">Wie aktiviere ich mein Benutzerkonto? 👈</div>
+      <hr>
+      <div id="description3" class="new-description">Um Ihr Benutzerkonto zu aktivieren, müssen Sie die START-Taste in
+        unserem Telegram-Kanal drücken.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(4)">
+      <div class="new-title">Was ist das Besondere an der Zusammenarbeit mit Ihrem Partnerprogramm? 👈</div>
+      <hr>
+      <div id="description4" class="new-description">Die Zusammenarbeit mit unserem Partnerprogramm ist sehr einfach.
+        Sie sehen sich die von TikTok angebotenen Videos an, bewerten sie und erhalten dafür Geld.</div>
+    </div>
+    <div class="new-block" onclick="toggleDescription(5)">
+      <div class="new-title">Wie oft werden Auszahlungen durchgeführt? 👈</div>
+      <hr>
+      <div id="description5" class="new-description">Auszahlungen erfolgen, wenn der Mindestauszahlungsbetrag erreicht
+        ist.</div>
+    </div>
+
+
+
+    <div class="new-big-image_2">
+      <div class="new-big-image-text">
+        <h1>Verdienen Sie leicht und passiv Geld</h1>
+        <h2>Schauen Sie sich kurze Videos an und verdienen Sie gutes Geld.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://specify-leakiness.click/yZh375bk')">👉 JETZT
+          BEGINNEN 👈</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="policy.html">Datenschutzrichtlinie</a>
+    <a href="disclaimer.html">Haftungsausschluss</a>
+    <a href="Imprint.html">Impressum</a>
+  </footer>
+  <script>
+    function toggleDescription(index) {
+      var description = document.getElementById("description" + index);
+      if (description.style.display === "block") {
+        description.style.display = "none";
+      } else {
+        description.style.display = "block";
+      }
+    }
+  </script>
+
+<button onclick="return gtag_report_conversion('https://specify-leakiness.click/yZh375bk')" ><div class="fab" data-v-91ccf3ff="" >
+  <div class="fab__inner " data-v-91ccf3ff="" >
+    <div class="" data-v-91ccf3ff="" >
+      <div class="" data-v-91ccf3ff="" > 
+        <div class="icon-container" data-v-91ccf3ff="" >
+          <img style="width: 70px;" class="tg" src="tg.png" alt="" srcset="">
+          </div>
+      </div>
+    </div>
+  </div>
+</div></button>
+  
+
+</body>
+
+</html>
